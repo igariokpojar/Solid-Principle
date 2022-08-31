@@ -1,7 +1,4 @@
-package com.cydeo.solid.dependencyInversion.bad;
-
-import com.cydeo.solid.dependencyInversion.good.Reader;
-import org.xml.sax.XMLReader;
+package com.cydeo.solid.dependencyInversion.good;
 
 public class UserReader {
 
@@ -14,5 +11,4 @@ public class UserReader {
     public String getUsername() {
         return reader.getUsername();
     }
-
 }
